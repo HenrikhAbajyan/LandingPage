@@ -1,0 +1,265 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	background-color: #ffffff;
+}
+/* padding shouldn't change width*/
+* {
+	box-sizing: border-box; 
+}
+
+.Container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1170px;
+	width: 100%;
+}
+
+	/* End Of common Styles */
+
+		/* Header Start */
+.Header {
+	display: flex;
+	background-color: #fff;
+	height: 90px;
+}
+
+.Header .Container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.Header .Logo {
+	width: 20%;
+	height: auto; 
+}
+
+.Header .Nav {
+	word-spacing: 15px;
+	font-size: 0.86rem;
+}
+
+.Header .Nav a {
+	text-decoration: none;
+	color: #707070;
+	cursor: pointer;
+}
+
+.Header .Nav a:hover {
+	color: #00c7fc;
+}
+
+#Home-Btn {
+	color: #00c7fc;
+}
+
+#Home-Btn:hover {
+	color: #131316;
+}
+		/* Header End */
+
+		/* Slider Start */
+
+.Slider {
+	position: relative; /* use when need position absalut*/
+	display: flex;
+	background-color: #131316;
+	height: 720px;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.Slider-Group {
+	display: flex;
+	color: #fff;
+	align-items: center;
+	flex-direction: column;
+}
+
+.Slider .Teg-Line {
+	font-size: 0.8rem;
+	margin-bottom: 25px;
+}
+
+.Slider .Title {
+	text-align: center;
+	font-size: 3rem;
+}
+
+.Slider .Actions {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap; 
+}
+
+.Btn {
+	display: block;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 15px 15px;
+	color: #fff;
+	cursor: pointer;
+	margin: 20px;
+	white-space: nowrap;
+	width: 200px;
+	text-align: center;
+}
+
+.Btn.Btn-Transparent:hover {
+	background-color: #00c7fc;
+}
+
+.Btn.Btn-Colored {
+	background-color: #00c7fc;
+}
+
+.Btn.Btn-Colored:hover {
+	color: #131316;
+}
+
+.Slider-Group .Slider-Btn {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -6px;
+	cursor: pointer;
+}
+
+.Slider-Group .Slider-Btn:hover {
+	color: #00c7fc;
+}
+		/* Slider End */
+
+		/* History Start */
+
+.History {
+	display: flex;
+	background-color: #f4f4f4;
+	height: 530px;
+	align-items: center;
+}	
+
+.History-Group {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.History .Title {
+	color: #131316;
+	font-size: 1.3rem;
+}
+
+.History img {
+	padding: 50px 0;
+	height: auto;
+}
+
+.History p {
+	font-size: 0.7rem;
+	text-align: center;
+	line-height: 200%;
+	text-overflow: ellipsis; /*do i need it*/
+}
+		/* History End */
+
+		/* Portfolio Start */
+
+.Portfolio {
+	height: 550px;
+}
+
+		/* Portfolio End */
+
+		/* Services Start */
+
+.Services {
+	display: flex;
+	position: relative;
+	background-color: #f4f4f4;
+	text-align: center;
+	padding: 140px 0;
+}
+
+.Services-Group {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+	justify-content: center;
+	align-items: center;
+
+}		
+	
+.Services .Box {                    
+	display: block;
+	margin: 15px;
+	padding: 0 15px;
+	padding-top: 125px;
+    width: auto;
+	height: 400px;
+	background-color: #fff;
+	line-height: 200%;
+	white-space: nowrap;
+
+}
+
+.Services .Box .Separator {
+	color: #04a3ce;
+	font-size: 2rem;
+	letter-spacing: -3.5px;
+}
+
+.Services .Box .Title {
+	color: #131316;
+	font-size: 1.33rem;
+}
+
+.Services .Box .Paragraph {
+	color: #637988;
+	font-size: 0.8rem;
+	padding-top: 30px;
+}
+		/* Services End */
+
+		/* Footer Start */
+
+.Footer {
+	display: flex;
+	height: 130px;
+	background-color: #04a3ce;
+}	
+
+.Footer .Container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}	
+
+.Footer .Rights {
+	font-size: 0.8rem;
+}
+
+.Footer .Social-Icons a{
+	color: #fff;
+	font-size: 1rem;
+	text-decoration: none;
+	letter-spacing: 25px;
+}
+
+.Footer .Social-Icons a:hover {
+	color: #131316;
+}
+
+
+
+
+
+
+
